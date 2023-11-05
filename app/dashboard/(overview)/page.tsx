@@ -2,7 +2,7 @@ import Cards, { Card } from "@/app/ui/dashboard/cards";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
 import { lusitana } from "@/app/ui/fonts";
-import { fetchCardData, fetchLatestInvoices } from "../../lib/data";
+import { fetchLatestInvoices } from "../../lib/data";
 import { Suspense } from "react";
 import { CardsSkeleton, RevenueChartSkeleton } from "@/app/ui/skeletons";
 
